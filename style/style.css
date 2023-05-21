@@ -1,0 +1,88 @@
+@import url(./reset.css);
+
+body {
+    background-color: #312F44;
+}
+
+.box-width {
+    margin: 100px auto;
+    width: 500px;
+    overflow: hidden;
+}
+
+.box-over {
+    width: 500%;
+    display: flex;
+}
+
+.quiz_box {
+    width: 20%;
+    padding: 40px 50px;
+    height: 400px;
+    background-color: #eee;
+    transition: 1s;
+    border-radius: 40px;
+    position: relative;
+}
+
+.select {
+    padding: 10px 0;
+}
+
+.select p {
+    display: inline-block;
+    padding: 10px;
+    transition: 0.3s;
+    font-size: 13px;
+}
+
+.select p:hover {
+    color: #4C74C9;
+}
+
+.quiz {
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.356);
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.151);
+    padding: 10px;
+    width: 400px;
+}
+
+.next-quest {
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    width: 20%;
+    padding: 30px;
+    text-align: center;
+}
+
+.next-quest button {
+    padding: 20px 70px;
+    background-color: #50CB86;
+    border-radius: 80px;
+    font-weight: bold;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.63);
+    border: none;
+}
+.btn-res{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 560px;
+}
+.res{
+    width: 300px;
+    height: 100px;
+    font-size: 25px;
+    padding: 30px 50px;
+    border-radius: 80px;
+    border: none;
+    background-color: #4C74C9;
+    box-shadow: 0 0 60px 10px #4C74C9;
+}
+.box-over{
+    transition: 1s;
+}
